@@ -24,7 +24,7 @@ public class tictactoeSpanish {
 
 	private static void imprimir(String[] tablero) {
 		System.out.println("Juego del 3 en raya");
-		System.out.println("Este juego utiliza una rejilla del 3x3, que se corresponde con el teclado numérico.");
+		System.out.println("Este juego utiliza una rejilla del 3x3, que se corresponde con el teclado numÃ©rico.");
 		System.out.println(tablero[7]+" | "+tablero[8]+" | "+tablero[9]);
 		System.out.println(tablero[4]+" | "+tablero[5]+" | "+tablero[6]);
 		System.out.println(tablero[1]+" | "+tablero[2]+" | "+tablero[3]);
@@ -33,17 +33,17 @@ public class tictactoeSpanish {
 	private static boolean comprobarGanador(String[] tablero, String jugador) {
 		if ((tablero[1].equals(jugador) && tablero[2].equals(jugador) && tablero[3].equals(jugador) || (tablero[4].equals(jugador) && tablero[5].equals(jugador) && tablero[6].equals(jugador)) || (tablero[7].equals(jugador) && tablero[8].equals(jugador) && tablero[9].equals(jugador)) || (tablero[1].equals(jugador) && tablero[4].equals(jugador) && tablero[7].equals(jugador)) || (tablero[2].equals(jugador) && tablero[5].equals(jugador) && tablero[8].equals(jugador)) || (tablero[3].equals(jugador) && tablero[6].equals(jugador) && tablero[9].equals(jugador)) || (tablero[1].equals(jugador) && tablero[5].equals(jugador) && tablero[9].equals(jugador)) || (tablero[3].equals(jugador) && tablero[5].equals(jugador) && tablero[7].equals(jugador)))) {
 			imprimir(tablero);
-			System.out.println("Ganó el Jugador "+jugador);
+			System.out.println("GanÃ³ el Jugador "+jugador);
 			return true;
 		} else {return false;}
 	}
 
 	private static void leer(Scanner myScan, String[] tablero, String jugador) {
 		int eleccion;
-		System.out.print("¿En que posición marca el jugador "+jugador+"? > ");
+		System.out.print("Â¿En que posiciÃ³n marca el jugador "+jugador+"? > ");
 		eleccion= myScan.nextInt();
 		while (!(tablero[eleccion].equals(" "))) {
-			System.out.print("La casilla está ocupada. Reintentar jugador "+jugador+" > ");
+			System.out.print("La casilla estÃ¡ ocupada. Reintentar jugador "+jugador+" > ");
 			eleccion= myScan.nextInt();
 			
 		}
