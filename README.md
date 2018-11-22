@@ -3,7 +3,7 @@ This is a simple java program to play TicTacToe on Command Line. Avaliable on Sp
 * Download the ZIP file and extract it.
 * Enter ```/bin```
 * Right click> Open command window here
-* Paste: ```java tictactoe```
+* Paste: ```java tictactoeEnglish```
 * Press Enter
 
 
@@ -11,5 +11,5 @@ Este es un sencillo programa de java para jugar al tres en raya desde la consola
 * Descargar y extraer el archivo ZIP
 * Entrar en ```/bin```
 * Botón derecho> Abrir ventana de comandos aquí
-* Pegar: ```java tictactoe```
+* Pegar: ```java tictactoeSpanish```
 * Presionar Enter
