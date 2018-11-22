@@ -10,4 +10,4 @@ This is a simple java program to play TicTacToe on Command Line. Avaliable on Sp
   https://stackoverflow.com/questions/5757189/how-do-i-run-java-class-files
 
 
-Este es un sencillo programa de java para jugar al tres en raya desde la consola de comandos
+Este es un sencillo programa de java para jugar al tres en raya desde la consola de comandos.
