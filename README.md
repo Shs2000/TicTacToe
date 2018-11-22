@@ -1,9 +1,9 @@
 # TicTacToe - Tres en Raya
-This is a simple java program to play TicTacToe on Command Line. Avaliable on Spanish and English. How to run the program:
+This is a simple java program to play TicTacToe on Command Line. Avaliable on Spanish and English. [How to run the program:](https://stackoverflow.com/questions/5757189/how-do-i-run-java-class-files)
 
- [Windows:](https://stackoverflow.com/questions/5757189/how-do-i-run-java-class-files)
+ Windows:
 * Download the ZIP file and extract it.
-* Enter /bin
+* Enter ```/bin```
 * Right click> Open command window here
 * Paste: ```java tictactoe```
 * Press Enter
